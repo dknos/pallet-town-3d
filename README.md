@@ -3,6 +3,8 @@
 A first-person, modern-3D-cartoon reimagining of the opening of Pokémon LeafGreen — the town, and
 the choice of a first partner Pokémon — built in Three.js.
 
+**[Play Pallet Town online](https://dknos.github.io/pallet-town-3d/)**
+
 Everything you see is generated in code. The project ships **no binary art assets**: every texture
 is baked procedurally at load time, every model is sculpted from signed-distance fields and
 marching cubes, and every sound is synthesised in WebAudio.

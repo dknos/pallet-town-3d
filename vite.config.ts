@@ -11,6 +11,10 @@ import { defineConfig } from 'vite';
  * usual suspects have to be repeated here or the watcher walks node_modules.
  */
 export default defineConfig({
+  // The fork is published as a GitHub Pages project site at
+  // /pallet-town-3d/. Relative asset URLs also keep the build portable to a
+  // preview URL or a different repository name.
+  base: './',
   server: {
     watch: {
       ignored: [
